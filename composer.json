@@ -1,0 +1,34 @@
+{
+  "name": "pedroluizsro/teste-em-phpsandbox",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "pedroluizsro",
+      "email": "email@example.com"
+    }
+  ],
+  "require": {
+    "criaenvio/biblioteca_criaenvio": "dev-master"
+  },
+  "autoload": {
+    "classmap": [
+      "Classes"
+    ]
+  },
+  "repositories": [
+    {
+      "type": "package",
+      "package": {
+        "name": "criaenvio/biblioteca_criaenvio",
+        "version": "dev-master",
+        "source": {
+          "url": "https://github.com/criaenvio/biblioteca_criaenvio.git",
+          "type": "git",
+          "reference": "master"
+        }
+      }
+    }
+  ]
+}
